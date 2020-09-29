@@ -1,0 +1,362 @@
+<!DOCTYPE html>
+<html lang="en" class="no-js">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="homePage.css">
+
+    <script type="text/javascript" src="homePage.js"></script>
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+
+    <link rel="stylesheet" href="assets/vendor/slick-carousel/slick/slick.css">
+    <script src="assets/vendor/slick-carousel/slick/slick.js"></script>
+    <script src="assets/js/helpers/hs.slick-carousel.js"></script>
+    <script>
+      $(document).on('ready', function () {
+        // initialization of slick carousel
+        $.HSCore.components.HSSlickCarousel.init('.js-slick-carousel');
+      });
+    </script>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script src="http://cdnjs.cloudflare.com/ajax/libs/waypoints/2.0.3/waypoints.min.js"></script>
+    <script src="jquery.counterup.min.js"></script>
+
+    
+    <title>Home page</title>
+</head>
+
+<body>
+    <div id="mainNavbar" class="navbar navbar-expand-sm bg-white justify-content-center "> 
+        <a class="navbar-braines" href="#" style="padding-inline-start: 80px;">
+            <img class="loglog"src="images/logo.png" alt="Logo">
+        </a>
+        <div class="collapse navbar-collapse" id="navLinks">
+            <ul class="navbar-nav">
+                <li class="nav-item"> <a href="" class="nav-link"style="padding-right: 0.5rem;color: #265CB8;"><strong>Accueil</strong></a> </li>
+                <li class="nav-item"> <a href="" class="nav-link">A Propos</a> </li>
+                <li class="nav-item"> <a href="" class="nav-link">Programmes</a> </li>
+                <li class="nav-item"> <a href="" class="nav-link">Contact</a> </li>
+                <li class="nav-item"> <a href="" class="nav-link">Nos Projets</a> </li>
+                <li class="nav-item"> <a href="" class="nav-link">Galerie</a> </li> 
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        Français</a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                      <a class="dropdown-item" href="#">Anglais</a>
+                    </div>
+                </li>
+        </div>
+        <button type="button" class="btn btn-primary btn-md" >Inscrivez-Vous</button>   
+    </div>
+    <div class="container-fluid">
+    <div id="demo" class="carousel slide" data-ride="carousel">
+
+        <!-- Indicators -->
+        <ul class="carousel-indicators">
+          <li data-target="#demo" data-slide-to="0" class="active"></li>
+          <li data-target="#demo" data-slide-to="1"></li>
+          <li data-target="#demo" data-slide-to="2"></li>
+        </ul>
+        
+        <!-- The slideshow -->
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="images/graines-dentrepreneurs.jpg" style="width: 1350px;height: 650px;">
+            <div class="text">
+                <img class="overlay-image2"src="images/block de textes.png">
+                <div class="overlay">
+              <p class="overlay-text2">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy 
+                eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. 
+                At vero eos et accusam et justo duo dolores et ea rebum.</p>
+              </div>
+            </div>
+            <div class="carousel-caption">
+              <button type="button" class="btn btn-primary btn-md" style="padding-left: 30px;margin: auto;margin-bottom: 80px;" >Inscrivez-Vous</button>
+            </div> 
+          </div>
+          <div class="carousel-item">
+            <img src="images/graines-dentrepreneurs.jpg" style="width: 1350px;height: 650px;">
+            <div class="text">
+                <img class="overlay-image2"src="images/block de textes.png">
+                <div class="overlay">
+              <p class="overlay-text2">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy 
+                eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. 
+                At vero eos et accusam et justo duo dolores et ea rebum.</p>
+              </div>
+            </div>
+            <div class="carousel-caption">
+              <button type="button" class="btn btn-primary btn-md" style="padding-left: 30px;margin: auto;margin-bottom: 80px;" >Inscrivez-Vous</button>
+            </div> 
+          </div>
+          <div class="carousel-item">
+            <img src="images/graines-dentrepreneurs.jpg" style="width: 1350px;height: 650px;">
+            <div class="text">
+                <img class="overlay-image2"src="images/block de textes.png">
+                <div class="overlay">
+              <p class="overlay-text2">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy 
+                eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. 
+                At vero eos et accusam et justo duo dolores et ea rebum.</p>
+              </div>
+            </div>
+            <div class="carousel-caption">
+              <button type="button" class="btn btn-primary btn-md" style="padding-left: 30px;margin: auto;margin-bottom: 80px;" >Inscrivez-Vous</button>
+            </div> 
+          </div>
+        </div>
+        
+        <!-- Left and right controls -->
+        <a class="carousel-control-prev" href="#demo" data-slide="prev">
+          <span class="carousel-control-prev-icon"></span>
+        </a>
+        <a class="carousel-control-next" href="#demo" data-slide="next">
+          <span class="carousel-control-next-icon"></span>
+        </a>
+
+      </div>
+    </div>
+    <section class="app" >
+      <h2 class="title">Nos Partenaires</h2>
+      <div class="partners">
+        <img src="images/attijari_bank.png"> 
+        <img src="images/atuge.png">
+        <img src="images/Deloitte.png">
+        <img src="images/express.png">
+        <img src="images/attijari_bank.png">
+      </div>
+    </section >
+
+    <section>
+      <table>
+              <tr class="ligne1">
+                  <td >
+                    <div class="section-image" style="margin-right: -40px;margin-left: 75px;">
+                      <img class="overlay-image" src="images/graines-dentrepreneurs.jpg">  
+                      <div class="overlay">
+                        <div class="overlay-text">
+                        <h5>LOREM IP SUM DOLOR AMET</h5>  
+                        <h5>CONSECTETUER</h5>
+                        <h6 class="author">by Name Surname</h6> 
+                      </div></div>
+                    </div>
+                  </td>
+                  <td class="bloc1" style="padding: 105px;">
+                    <h3 class="title2">Graines d’entrepreneurs</h3>
+                    <p class="text-graines">Graines d’entrepreneurs est une association tunisienne qui a pour mission d’éveiller l’esprit entrepreneurial chez les enfants.
+                      Notre cycle de deux ans de pré-incubation a pour but ultime d’émerger une génération de futurs entrepreneurs agiles et 
+                      actifs dans le développement de leurs projets ainsi que dans la société</p>
+                    <button type="button" class="btn btn-primary btn-md">Savoir Plus</button> 
+                </td>
+              </tr> 
+      </table>
+    </section>
+    <section>
+      <h2 class="title"> Graines En Quelques Chiffres</h2>
+      <table class="table-counter">
+        <tr class="ligne2">
+          <td>
+            <div class="counter">
+              <img src="images/icons/icon1.png" style="margin: 0 0 1em 0; width: 60px;">
+              <h3 class="timer count-title count-number" data-to="100" data-speed="1500">000</h3>
+              <h2 class="title">Idées
+                              De Projets</h2>
+            </div>
+          </td>
+          <td>
+            <img src="images/icons/icon2.png" style="margin: 0 0 1em 0; width: 60px;">
+            <h3 class="counter">000</h3>
+            <h2 class="title">Enfants Impactés</h2>
+          </td>
+          <td>
+            <img src="images/icons/icon3.png" style="margin: 0 0 1em 0; width: 60px;">
+            <h3>000</h3>
+            <h2 class="title">Coaches</h2>
+          </td>
+          <td>
+            <img src="images/icons/icon4.png" style="margin: 0 0 1em 0; width: 60px;">
+            <h3>000</h3>
+            <h2 class="title">Heures De Formations</h2>
+          </td>
+          <td>
+            <img src="images/icons/icon5.png" style="margin: 0 0 1em 0; width: 60px;">
+            <h3>000</h3>
+            <h2 class="title">Participations À Des Événements</h2>
+          </td>
+        </tr>
+      </table>
+    </section>
+    <div class="js-slick-carousel u-slick"
+     data-arrows-classes="d-none d-lg-inline-block u-slick__arrow-classic u-slick__arrow-centered--y rounded-circle"
+     data-arrow-left-classes="fa fa-arrow-left u-slick__arrow-classic-inner u-slick__arrow-classic-inner--left ml-lg-2 ml-xl-4"
+     data-arrow-right-classes="fa fa-arrow-right u-slick__arrow-classic-inner u-slick__arrow-classic-inner--right mr-lg-2 mr-xl-4">
+      <div class="js-slide u-bg-img-hero-center" style="background-image: url('images/témoignage text.png');">
+        <div class="u-space-5">
+        </div>
+      </div>
+      <div class="js-slide u-bg-img-hero-center" style="background-image: url('images/témoignage text.png');">
+        <div class="u-space-5">
+        </div>
+      </div>
+      <div class="js-slide u-bg-img-hero-center" style="background-image: url('images/témoignage text.png');">
+       <div class="u-space-5">
+       </div>
+      </div>
+    </div>
+    <div class="container" style="padding: 20px;">
+          <div class="row text-center">
+            <div class="col">
+              <div class="counterr">
+                <h2 class="title1">Programme Annuel </h2>
+            <h6>Xx Semaines</h6>
+            <h6>enfants entre xx et xx</h6>
+            <h6 class="parag">orem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy 
+            eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. 
+            At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea 
+            </h6>
+            <img class="overlay-image1" src="images/couleur1.png">
+            <hr size="1" width="88%">
+            <h4>Inscrivez vous</h4>
+              </div>
+            </div>
+            <div class="col">
+              <div class="counterr">
+                <h2 class="title1">Programme Annuel </h2>
+              <h6>Xx Semaines</h6>
+              <h6>enfants entre xx et xx</h6>
+              <h6 class="parag">orem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy 
+              eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. 
+              At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea 
+              </h6>
+              <img class="overlay-image1" src="images/couleur2.png">
+              <hr size="1" width="88%">
+              <h4>Inscrivez vous</h4>
+              </div>
+              </div>
+              <div class="col">
+                <div class="counterr">
+                  <h2 class="title1">Programme Annuel </h2>
+                <h6>Xx Semaines</h6>
+                <h6>enfants entre xx et xx</h6>
+                <h6 class="parag">orem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy 
+                eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. 
+                At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea 
+                </h6>
+                <img class="overlay-image1" src="images/couleur3.png">
+                <hr size="1" width="88%">
+                <h4>Inscrivez vous</h4>
+                </div>
+                </div>
+                <div class="col">
+                  <div class="counterr">
+                    <h2 class="title1">Programme Annuel </h2>
+                  <h6>Xx Semaines</h6>
+                  <h6>enfants entre xx et xx</h6>
+                  <h6 class="parag">orem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy 
+                  eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. 
+                  At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea 
+                  </h6>
+                    <img class="overlay-image1" src="images/couleur4.png">
+                      <hr size="1" width="88%">
+                      <h4>Inscrivez vous</h4>
+                  </div>
+                </div>
+          </div>
+          <div class="container">
+            <img src="images/Base.png" style="height: 235px;margin-left: -77px;margin-top: -87px;width: 114%;">
+            <div class="text-block">
+              <h2>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam</h2> 
+              <button type="button" class="btn btn-primary btn-md" style="color: black;
+                padding-left: 31px;margin: auto;margin-top: 20px;background-color: white;" >Inscrivez-Vous</button>
+            </div>
+          </div>
+          
+    </div>
+
+    <div>
+      <video src="video/video.mp4" controls style="margin-right: auto;margin-left: auto;display: block;"> </video>
+      <div class="container">
+        <img src="images/témoignage text.png" style="height: 290px;margin-left: -125px;margin-top: -129px;width: 122%;">
+        <div class="video-div" style="margin: -205px 155px 145px 196px;text-align: center;">
+          <i class="fas fa-quote-left" style="color: white;margin-bottom: 15px;font-size: xx-large;"></i>
+          <h2 class="video-text"> “Une équipe dynamique,sérieuse et professionnelle! 
+            Plein de dévouement d'amour pour nos enfants”</h2>
+          <h4 class="sous-text">Haifa Ouni</h4>
+        </div>
+      </div>
+    </div>
+
+    <div class="contact-email" style="margin: -65px 110px 50px;">
+      <img class="contact-image" src="images/font.png">
+      <div class="row text-center" style="margin-bottom: 100px;margin-top: -386px;">
+        <div class="col" style="margin-left: -70px;">
+          <h3 class="contacter">Nous contacter</h3>
+          <input class="emaill" type="text" name="email" title="E-Mail">
+          <textarea name="Message">
+            Message...</textarea>
+        </div>
+        <div class="col" style="margin-top: -10px;margin-left: -210px;">
+          <img class="contact" src="images/contact.png">
+        </div>
+      </div>
+      
+            
+    </div>
+
+    
+
+    <footer class="footer-bottom">
+      <table class="footer-table">
+        <tr>
+          <td>
+            <a href="#">
+              <img src="images/logog.png" alt="Logo" style="width:80px;">
+            </a>
+            <div class="foot-parag">
+            <h5 class="footer-text">“Graines D’entrepreneurs Le Premier Programme De Pré Incubation </h5>
+            <h5 class="footer-text">Pour Les Enfants En Tunisie.</h5>   
+            <h5 class="footer-text">Leader Un Jour, Leader Pour Toujours"</h5> 
+            </div>
+            
+            <p class="envoi-email">Abonnez-Vous À Notre Newsletter</p>
+          <div class="input-group mb-3">
+            <input type="text" class="form-control" placeholder="email" aria-label="email" aria-describedby="basic-addon2" style="padding: 15px;">
+            <div class="input-group-append">
+              <span class="input-group-text" id="basic-addon2">Envoyer</span>
+            </div>
+          </div>
+          <a href="#">
+            <img src="images/fb.png" alt="fb" style="width:30px;">
+            <img class="icon-insta"src="images/instagram.png" alt="insta" style="width: 30px;">
+          </a>
+          </td>
+          <td class="footer-right" style="padding-left: 250px;">
+            <div class="rightcontact" style="padding-bottom: 25px;margin-top: 35px;">
+            <h5 class="footer-right-text">Contacter</h5> 
+            <h5 class="footer-right-text">À Propos De Nous</h5> 
+            <h5 class="footer-right-text">Nos Programmes</h5> 
+            <h5 class="footer-right-text">Nos Émissions Radio</h5> 
+            <h5 class="footer-right-text">Nos Graines</h5> 
+            </div>
+            <div class="rightphone">
+            <h5 class="footer-right-text">Grainesentrepreneurs@Gmail.Com</h5>
+            <h6 style="color: white;margin: 0 auto;font-family: exo 2;">26.27.27.31</h6> 
+            <h6 style="color: white;margin: 0 auto;font-family: exo 2;">50.28.85.62</h6>
+
+            </div>
+            
+          </td>
+        </tr>
+      </table>
+
+  </footer>
+
+
+
+</body>
+</html>
