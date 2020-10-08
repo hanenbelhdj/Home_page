@@ -1,0 +1,201 @@
+#mainNavbar {
+  padding: inherit;
+  height: 70px;
+}
+div#navLinks {
+  padding-left: 200px;
+}
+.loglog{
+  width: 70px;
+  margin-top: 10px;
+  margin-left: 30px;
+}
+li.nav-item {
+  margin: 0px 30px 0em 6px;
+  font-size: unset;
+  font-family: initial;
+}
+.nav-link{
+  color:black;
+}
+.btn-md{
+  font-family: arial;
+  font-size: 13px;
+  margin-inline-end: 74px;
+  border: 2px solid transparent;
+  padding: 0.375rem 42.75px;
+  border-radius: 0.45rem;
+  background-color: #3575E5;
+}
+/*partie1*/
+h5 {
+  margin-top: -308px;
+  margin-bottom: 11px;
+  color: white;
+  /*Arial40Bold*/
+  font-size: 1.7rem;
+  font-weight: bold;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.cycle img {
+  margin: 1% 50px;
+  height: 50px;
+  width: 50px;
+}
+section{
+  text-align: center;
+  align-items: center;
+}
+table.cycle-text {
+  margin: 0% 11%;
+}
+.ligne td {
+  width: 12%;
+  height: 7em;
+  display: revert;
+}
+.cycle-item {
+  font-size: smaller;
+  font-family: poppins;
+  color: white;
+}
+/*partie2-defGaine*/
+.graine-def{
+  margin: 7% 15%;
+  text-align: center;
+  font-size: medium;
+  font-family: Arial, Helvetica, sans-serif;
+  color: #4D4D4D;
+}
+.ideal{
+  color: black;
+  font-size: 1.7rem;
+  font-weight: bold;
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+}
+/*tableau-cycle*/
+.ideal-text{
+  margin: 50px;
+  font-size: smaller;
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.ligne1 td{
+  width: 12%;
+  height: 7em;
+  display: revert;
+}
+/*colonnes-table*/
+.row{
+  margin-right: 50px;
+  margin-left: 55px;
+}
+.col {
+  margin: -7px;
+  padding: 38px 19px;
+}
+.counterr {
+  background-color:#fff;
+  box-shadow:1px 1px 23px #aaa;
+  border-radius: 15px;
+  padding: 10% 10%;
+}
+.title1 {
+  margin-bottom: -31px;
+  margin-top: -22px;
+  padding: 30px 0;
+  color: #000;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  font-size: larger;
+}
+.h6 ,h6{
+  color: #949494;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: x-small;
+  margin-top: -3px;
+}
+.parag{
+  padding-bottom: 25px;
+  margin-top: 43px;
+  color: #8D8D8D;
+}
+hr {
+  margin-top: -1rem;
+  margin-bottom: 2rem;
+  border: 0;
+  border-top: 1px solid rgba(0,0,0,.1);
+}
+/*tableau-cycle2*/
+.etude-text{
+  margin: 130px;
+  font-size: smaller;
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+  margin-bottom: 25px;
+  margin-top: 30px;
+}
+
+.telecharger{
+  color: white;
+  margin-top: -153px;
+  text-align: center;
+  font-size: 1.7rem;
+  font-weight: bold;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/*footer*/
+.footer-bottom{
+  margin-top: 50px;
+  background:#3575E5 ;
+}
+.footer-table{
+  margin: 0px 0px 0px 150px;
+  height: 300px;
+}
+.foot-parag {
+  margin: 20px 0px;
+}
+.footer-text{
+  margin: 0 auto;
+    font-family: exo 2;
+    font-size: small;
+    color: #ffffff;
+    padding-left: inherit;
+}
+.envoi-email{
+  margin-left: 10px;
+  margin-bottom: 0rem;
+  color: #ffffff;
+  font-family: exo 2;
+  text-align: left;
+  font-size: 54%;
+}
+span#basic-addon2 {
+  background-color: #FFD235;
+  color: white;
+}
+.mb-3{
+  width: fit-content; 
+  text-align: left;
+}
+.icon-insta{
+  width: 30px;
+  margin: auto 10px;
+}
+.footer-right{
+  text-align: right;
+  padding-inline-end: 30px;
+}
+.footer-right-text{
+  margin: 0 auto;
+  text-align: right;
+  padding-inline-start: 225px;
+  font-size: small;
+  font-family: exo 2;
+}
+
+
