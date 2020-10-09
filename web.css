@@ -21,3 +21,41 @@
     margin: 3% 20%;
     font-family: Arial, Helvetica, sans-serif;
 }
+.formulaire{
+    background-image: url('images/Rectangle 951.png');
+    margin-top: -111pc;
+    margin-left: 25pc;
+    padding: 4% 4%;
+    width: 56pc;
+    background-repeat: no-repeat;
+    background-size: 36pc;
+    backface-visibility: hidden;
+}
+.form-control {
+    display: block;
+    width: 60%;
+}
+.telecharger{
+    margin-top: 4%;
+    margin-left: 20%;
+    font-size: 16px;
+    font-family: 'Segoe UI', sans-serif;
+    color: #3677E9;
+    text-decoration: underline;
+}
+/*footer*/
+.footer-bottom{
+    background:#3575E5 ;
+  }
+.footer-table{
+    margin-top: 186px;
+    height: 46px
+  }
+  .footer-text{
+    margin-left: 90px;
+    font-size: small;
+    color: #ffffff;
+  }
+  .footer-right-text{
+    padding-inline-start: 306px;
+  }
